@@ -1,0 +1,69 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5042516346444420372",
+      "lastPropertyId": "8:1249368583229348996",
+      "name": "Transaction",
+      "properties": [
+        {
+          "id": "1:180562569507241711",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8042403894844417908",
+          "name": "refNo",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "1:3494087489645914062"
+        },
+        {
+          "id": "3:1066886672772223889",
+          "name": "bankName",
+          "type": 9
+        },
+        {
+          "id": "4:2470871746615612138",
+          "name": "payeeName",
+          "type": 9
+        },
+        {
+          "id": "5:2139282617693382149",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "6:5763805283918391125",
+          "name": "timestamp",
+          "type": 6
+        },
+        {
+          "id": "7:9048030133223342382",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "8:1249368583229348996",
+          "name": "accountNum",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:5042516346444420372",
+  "lastIndexId": "1:3494087489645914062",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
